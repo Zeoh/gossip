@@ -260,10 +260,4 @@
     return YES;
 }
 
-- (NSString*)getRemoteUri {
-    pjsua_call_info callInfo;
-    pjsua_call_get_info(_callId, &callInfo);
-    return [NSString stringWithUTF8String:callInfo.remote_info.ptr];
-}
-
 @end

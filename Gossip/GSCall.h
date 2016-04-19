@@ -54,6 +54,5 @@ typedef enum {
 - (BOOL)end; ///< Stop calling and/or hangup call.
 
 - (BOOL)sendDTMFDigits:(NSString *)digits; ///< Sends DTMF digits over the call.
-- (NSString*)getRemoteUri; ///< Get the remote uri address of the call.
 
 @end
